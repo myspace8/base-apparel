@@ -97,8 +97,8 @@ header {
 
 #submit-msg {
     display: none;
-    text-align: center;
     max-width: 400px;
+    margin: auto;
 }
 
 /* Media query */
@@ -146,5 +146,9 @@ header {
 
     .form {
         margin: 0.5em 1em;
+    }
+
+    #submit-msg {
+        text-align: center;
     }
 }
